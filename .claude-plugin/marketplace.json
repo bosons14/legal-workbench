@@ -1,0 +1,27 @@
+{
+  "name": "legal-workbench",
+  "owner": {
+    "name": "Subhendra Basu",
+    "url": "https://github.com/bosons14"
+  },
+  "metadata": {
+    "description": "A legal workbench for Claude Code: contract review and drafting, research memos with citation verification, litigation drafting, due diligence, chronologies, limitation dates, redlines, redaction, conflict checks and client-confidentiality guardrails.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "legal-workbench",
+      "source": "./plugins/legal-workbench",
+      "description": "Everyday legal work in Claude Code - review, draft, research, verify, litigate, diligence, redact - with built-in confidentiality guardrails.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Subhendra Basu"
+      },
+      "homepage": "https://github.com/bosons14/legal-workbench",
+      "repository": "https://github.com/bosons14/legal-workbench",
+      "license": "MIT",
+      "keywords": ["legal", "law", "contracts", "litigation", "due-diligence", "compliance", "lawyer"],
+      "category": "productivity"
+    }
+  ]
+}

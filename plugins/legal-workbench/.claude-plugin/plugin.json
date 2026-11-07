@@ -1,0 +1,13 @@
+{
+  "name": "legal-workbench",
+  "version": "0.1.0",
+  "description": "Everyday legal work in Claude Code - contract review and drafting, research memos with citation verification, litigation drafting, due diligence, chronologies, limitation dates, redlines, redaction and conflict checks - with client-confidentiality guardrails.",
+  "author": {
+    "name": "Subhendra Basu",
+    "url": "https://github.com/bosons14"
+  },
+  "homepage": "https://github.com/bosons14/legal-workbench",
+  "repository": "https://github.com/bosons14/legal-workbench",
+  "license": "MIT",
+  "keywords": ["legal", "law", "contracts", "litigation", "due-diligence", "compliance", "lawyer"]
+}

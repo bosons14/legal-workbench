@@ -1,0 +1,17 @@
+{
+  "description": "legal-workbench: blocks web searches, fetches and network commands that contain client-confidential terms listed in .legal/confidential-terms.txt",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "WebSearch|WebFetch|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/confidentiality_guard.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
